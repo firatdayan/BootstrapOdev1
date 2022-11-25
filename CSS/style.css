@@ -1,22 +1,14 @@
+/* body arkaplanı istenilen renk olan #e9ecef yapildi ve margin sifirlandi */
 body{
     background-color: #E9ECEF;
+    margin: 0%;
 }
 .navbar{
     text-align: center;
     background-color: palevioletred;
     color: white;
 }
- li{
-    color:white;
-    list-style-type: none;
-    display: inline;
-    padding: 10px;
-    list-style-position: inside;
-    font-family: monospace;
-    text-transform: uppercase;
-    font-size: 2em;
-    
-} 
+
 li a:hover{
     background-color:rgb(243, 245, 220);
     border-radius: 5px;
@@ -26,16 +18,18 @@ li a:hover{
 
 
 ul{
-    text-align:center;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
   
-ul li{
-    display:inline-block;
-    *display:inline; /*IE7*/
-    *zoom:1; /*IE7*/
+ul.index-ul{
+    list-style:inside;
+    list-style-type:circle;
+    background-color: #E9ECEF;
+    display: inline-block;
+    text-align: left;
+    margin-bottom:20px;
 }
 
 .tasarim{
